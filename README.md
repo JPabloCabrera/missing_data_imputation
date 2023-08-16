@@ -42,7 +42,7 @@ A lo largo del proyecto, se logró:
 El análisis de valores faltantes es un paso crucial en el proceso de análisis de datos. Elegir la estrategia adecuada depende del contexto del conjunto de datos y los objetivos del análisis. Este proyecto proporciona una introducción completa al manejo de valores faltantes y ofrece una variedad de enfoques para abordar este desafío.
 
 # Autor
-[José Pablo Cabrera Romo]
+José Pablo Cabrera Romo
 
 ## Recursos Adicionales
 
