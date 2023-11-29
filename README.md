@@ -1,57 +1,54 @@
-# Manejo de Datos Faltantes: Imputación
+# Handling Missing Data: Imputation
 
-## Agradecimientos y Contexto del Curso
+## Analysis of Missing Values in NHANES Data
 
-Antes de comenzar con la descripción del proyecto, es importante mencionar que este trabajo se realizó como parte del Curso de Manejo de Datos Faltantes de la plataforma educativa Platzi, con la valiosa guía del instructor Jesús Vélez Santiago. El curso proporcionó las bases y las herramientas necesarias para abordar con éxito el análisis y la imputación de valores faltantes en el conjunto de datos del Estudio Nacional de Examen de Salud y Nutrición (NHANES).
+This project focuses on handling missing values in the National Health and Nutrition Examination Survey (NHANES) dataset. The goal is to explore different strategies for addressing missing values and understand how these strategies impact the quality and interpretation of the data.
 
-## Análisis de Valores Faltantes en Datos de NHANES
+## Introduction
 
-Este proyecto se centra en el manejo de valores faltantes en el conjunto de datos del Estudio Nacional de Examen de Salud y Nutrición (NHANES). El objetivo es explorar diferentes estrategias para abordar los valores faltantes y comprender cómo estas estrategias afectan la calidad y la interpretación de los datos.
+In this project, various techniques and methods were explored and applied to handle missing values in NHANES data. Python tools such as Pandas, NumPy, Matplotlib, Seaborn, and scikit-learn were used to perform the analysis and imputation of missing values.
 
-## Introducción
+## Content
 
-En este proyecto, se exploraron y aplicaron diversas técnicas y métodos para manejar valores faltantes en los datos de NHANES. Se utilizaron herramientas de Python, como Pandas, NumPy, Matplotlib, Seaborn y scikit-learn, para llevar a cabo el análisis y la imputación de valores faltantes.
+The project unfolded across the following six points:
 
-## Contenido
+1. Initial Exploration of Missing Values: In this section, an initial exploration of the quantity and distribution of missing values in the dataset was conducted. Graphs and visualizations were used to better understand the nature of missing values.
 
-El proyecto se desarrolló a lo largo de los siguientes seis mensajes:
+2. Analysis of Missing Value Patterns: This section investigated possible patterns behind missing values. Correlations and relationships between variables were explored to determine if the absence of values was related to certain factors.
 
-1. Exploración Inicial de Valores Faltantes: En este mensaje, se realizó una exploración inicial de la cantidad y distribución de los valores faltantes en el conjunto de datos. Se utilizaron gráficos y visualizaciones para comprender mejor la naturaleza de los valores faltantes.
+3. Simple Imputation Strategies: This section examined simple imputation strategies, such as imputation with constant values, median, and mean. The advantages and disadvantages of each approach were evaluated, and visualizations were generated to compare the results.
 
-2. Análisis de Patrones de Valores Faltantes: Aquí se investigaron los posibles patrones detrás de los valores faltantes. Se exploraron correlaciones y relaciones entre variables para determinar si la falta de valores estaba relacionada con ciertos factores.
+4. Imputation Based on Statistical Methods: More advanced methods, such as imputation by interpolation and imputation using the KNN algorithm, were explored. The concepts behind these methods were explained, and demonstrations of how to apply them to NHANES data were provided.
 
-3. Estrategias de Imputación Simple: En este mensaje, se examinaron estrategias simples de imputación, como la imputación por valores constantes, mediana y media. Se evaluaron las ventajas y desventajas de cada enfoque y se generaron visualizaciones para comparar los resultados.
+5. Imputation by Regression Models: Regression model imputation was employed to estimate missing values based on relationships between variables. The model-building process was detailed, and the application for filling missing values was demonstrated.
 
-4. Imputación Basada en Métodos Estadísticos: Se exploraron métodos más avanzados, como la imputación por interpolación y la imputación utilizando el algoritmo KNN. Se explicaron los conceptos detrás de estos métodos y se demostró cómo aplicarlos en los datos de NHANES.
+6. Multiple Imputations by Chained Equations (MICE): The MICE approach, which uses conditional regression models for iterative imputation, was introduced. The methodology was discussed, and an implementation in the project was demonstrated.
 
-5. Imputación por Modelos de Regresión: Aquí se utilizó la imputación por modelos de regresión para estimar valores faltantes basados en relaciones entre variables. Se detalló el proceso de construcción de modelos y cómo aplicarlos para llenar los valores faltantes.
+## Results
 
-6. Imputaciones Múltiples por Ecuaciones Encadenadas (MICE): Se presentó el enfoque MICE, que utiliza modelos de regresión condicional para imputar valores faltantes de manera iterativa. Se discutió la metodología y se demostró cómo implementarla en el proyecto.
+Throughout the project, the following was achieved:
 
-## Resultados
-A lo largo del proyecto, se logró:
+- Identification and understanding of the distribution of missing values in the NHANES dataset.
+- Evaluation and comparison of different imputation strategies, from simple approaches to more complex model-based methods.
+- Application of advanced techniques such as interpolation, KNN, and regression models for imputation.
+- Understanding how the choice of an imputation strategy affects the data distribution and relationships between variables.
+- Familiarity with the MICE approach and its application for iterative imputation.
 
-- Identificar y entender la distribución de valores faltantes en el conjunto de datos NHANES.
-- Evaluar y comparar diferentes estrategias de imputación, desde enfoques simples hasta métodos más complejos basados en modelos.
-- Aplicar técnicas avanzadas como la imputación por interpolación, KNN y modelos de regresión.
-- Comprender cómo la elección de una estrategia de imputación afecta la distribución de los datos y las relaciones entre variables.
-- Familiarizarse con el enfoque MICE y su aplicación para imputación iterativa.
+## Conclusion
 
-## Conclusión
+Missing values analysis is a crucial step in the data analysis process. Choosing the right strategy depends on the dataset context and analysis objectives. This project provides a comprehensive introduction to handling missing values and offers a variety of approaches to address this challenge.
 
-El análisis de valores faltantes es un paso crucial en el proceso de análisis de datos. Elegir la estrategia adecuada depende del contexto del conjunto de datos y los objetivos del análisis. Este proyecto proporciona una introducción completa al manejo de valores faltantes y ofrece una variedad de enfoques para abordar este desafío.
-
-# Autor
+# Author
 José Pablo Cabrera Romo
 
-## Recursos Adicionales
+## Additional Resources
 
-Si deseas explorar más sobre cómo manejar valores faltantes y mejorar tus habilidades en análisis de datos, aquí hay algunos recursos adicionales:
+If you want to explore more about handling missing values and enhance your data analysis skills, here are some additional resources:
 
-- Numpyninja's Explanation of the MICE Algorithm
-- Documentación de Pandas
-- Documentación de scikit-learn
-- Documentación de Seaborn
+- [Numpyninja's Explanation of the MICE Algorithm](link_to_numpyninja_explanation)
+- [Pandas Documentation](link_to_pandas_docs)
+- [scikit-learn Documentation](link_to_scikit_learn_docs)
+- [Seaborn Documentation](link_to_seaborn_docs)
   
 ## Installation guide
 
