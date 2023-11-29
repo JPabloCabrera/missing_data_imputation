@@ -68,9 +68,9 @@ Please read [install.md](install.md) for details on how to set up this project.
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries.
     │
-    ├── notebooks          <- **1.0-download-data-and-load-it.ipynb:** Notebook for downloading and loading data.
-  - **2.0-pandas-missing-extension.ipynb:** Notebook for Pandas missing extension.
-  - **3.0-imputation-missing-values.ipynb:** Notebook for missing values imputation.
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g.
+    │                         `1.0-jqp-initial-data-exploration`.
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
