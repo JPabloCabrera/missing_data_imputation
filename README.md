@@ -58,7 +58,6 @@ Please read [install.md](install.md) for details on how to set up this project.
 
     ├── LICENSE
     ├── tasks.py           <- Invoke with commands like `notebook`.
-    ├── tasks.py           <- Invoke with commands like `notebook`.
     ├── README.md          <- The top-level README for developers using this project.
     ├── install.md         <- Detailed instructions to set up this project.
     ├── data
